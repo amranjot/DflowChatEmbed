@@ -5,7 +5,7 @@
 :host {
   --chatbot-container-bg-image: none;
   --chatbot-container-bg-color: transparent;
-  --chatbot-container-font-family: 'Open Sans';
+  --chatbot-container-font-family: 'Roboto';
 
   --chatbot-button-bg-color: #0042da;
   --chatbot-button-color: #ffffff;
@@ -434,5 +434,5 @@ textarea {
   background-color: transparent;
   border: none;
   padding: 10px 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
