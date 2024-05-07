@@ -830,7 +830,6 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               color: props.bubbleTextColor,
               'border-top-left-radius': props.isFullPage ? '0px' : '0px',
               'border-top-right-radius': props.isFullPage ? '0px' : '0px',
-      
             }}
           >
             <Show when={props.titleAvatarSrc}>
