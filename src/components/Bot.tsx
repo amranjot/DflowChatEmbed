@@ -823,24 +823,52 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         )}
 
         {props.showTitle ? (
+          // <div
+          //   class="flex flex-row items-center w-full h-[50px] absolute top-0 left-0 z-10"
+          //   style={{
+          //     background: props.bubbleBackgroundColor,
+          //     color: props.bubbleTextColor,
+          //     'border-top-left-radius': props.isFullPage ? '0px' : '0px',
+          //     'border-top-right-radius': props.isFullPage ? '0px' : '0px',
+          //   }}
+          // >
+          //   <Show when={props.titleAvatarSrc}>
+          //     <>
+          //       <div style={{ width: '15px' }} />
+          //       <Avatar initialAvatarSrc={props.titleAvatarSrc} />
+          //     </>
+          //   </Show>
+          //   <Show when={props.title}>
+          //     <span class="px-3 whitespace-pre-wrap font-semibold max-w-full">{props.title}</span>
+          //   </Show>
+          //   <div style={{ flex: 1 }} />
+          //   <DeleteButton
+          //     sendButtonColor={props.bubbleTextColor}
+          //     type="button"
+          //     isDisabled={messages().length === 1}
+          //     class="my-2 ml-2"
+          //     on:click={clearChat}
+          //   >
+          //     <span style={{ 'font-family': 'Poppins, sans-serif' }}>Clear</span>
+          //   </DeleteButton>
+          // </div>
           <div
             class="flex flex-row items-center w-full h-[50px] absolute top-0 left-0 z-10"
             style={{
               background: props.bubbleBackgroundColor,
               color: props.bubbleTextColor,
-              'border-top-left-radius': props.isFullPage ? '0px' : '0px',
-              'border-top-right-radius': props.isFullPage ? '0px' : '0px',
+              'border-radius': '0px', // Set both border radius properties to 0px
             }}
           >
-            <Show when={props.titleAvatarSrc}>
+            {props.titleAvatarSrc && (
               <>
                 <div style={{ width: '15px' }} />
                 <Avatar initialAvatarSrc={props.titleAvatarSrc} />
               </>
-            </Show>
-            <Show when={props.title}>
+            )}
+            {props.title && (
               <span class="px-3 whitespace-pre-wrap font-semibold max-w-full">{props.title}</span>
-            </Show>
+            )}
             <div style={{ flex: 1 }} />
             <DeleteButton
               sendButtonColor={props.bubbleTextColor}
