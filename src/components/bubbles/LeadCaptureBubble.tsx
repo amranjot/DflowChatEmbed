@@ -94,7 +94,7 @@ export const LeadCaptureBubble = (props: Props) => {
         style={{
           'background-color': props.backgroundColor ?? defaultBackgroundColor,
           color: props.textColor ?? defaultTextColor,
-          'border-radius': '0px',
+          'border-radius': '6px',
           'font-size': props.fontSize ? `${props.fontSize}px` : `${defaultFontSize}`,
         }}
       >
