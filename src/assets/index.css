@@ -23,7 +23,7 @@
   --chatbot-header-bg-color: #ffffff;
   --chatbot-header-color: #303235;
 
-  --chatbot-border-radius: 6px;
+  --chatbot-border-radius: 0px;
 
   /* Phone input */
   --PhoneInputCountryFlag-borderColor: transparent;
@@ -205,7 +205,7 @@ textarea {
 .chatbot-host-bubble > .bubble-typing {
   background-color: #f7f8ff;
   border: var(--chatbot-host-bubble-border);
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .chatbot-host-bubble img,
@@ -217,7 +217,7 @@ textarea {
 .chatbot-guest-bubble {
   color: var(--chatbot-guest-bubble-color);
   background-color: #3b81f6;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .chatbot-input,
@@ -402,7 +402,7 @@ textarea {
 .boticon,
 .usericon {
   margin-right: 1rem;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 .markdownanswer h1,
@@ -423,7 +423,7 @@ textarea {
 .cloud {
   width: 400px;
   height: calc(100% - 50px);
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   display: flex;
   justify-content: center;
   align-items: center;

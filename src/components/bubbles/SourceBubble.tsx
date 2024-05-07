@@ -18,7 +18,7 @@ export const SourceBubble = (props: Props) => (
           width: 'max-content',
           'max-width': '80px',
           'font-size': '13px',
-          'border-radius': '15px',
+          'border-radius': '0px',
           cursor: 'pointer',
           'text-overflow': 'ellipsis',
           overflow: 'hidden',

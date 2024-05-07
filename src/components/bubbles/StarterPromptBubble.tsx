@@ -16,7 +16,7 @@ export const StarterPromptBubble = (props: Props) => (
         style={{
           width: 'max-content',
           'font-size': '15px',
-          'border-radius': '15px',
+          'border-radius': '0px',
           cursor: 'pointer',
         }}
       >
