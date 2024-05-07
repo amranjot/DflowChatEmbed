@@ -205,7 +205,7 @@ textarea {
 .chatbot-host-bubble > .bubble-typing {
   background-color: #f7f8ff;
   border: var(--chatbot-host-bubble-border);
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .chatbot-host-bubble img,
