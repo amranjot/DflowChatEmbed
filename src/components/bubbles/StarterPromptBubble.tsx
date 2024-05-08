@@ -14,7 +14,7 @@ export const StarterPromptBubble = (props: Props) => (
         class="px-2 py-1 ml-1 whitespace-pre-wrap max-w-full chatbot-host-bubble"
         data-testid="host-bubble"
         style={{
-          "flex-direction":"column",
+          'flex-direction': 'column',
           width: 'fit-content',
           'font-size': '15px',
           'border-radius': '15px',
