@@ -15,9 +15,6 @@ export const StarterPromptBubble = (props: Props) => (
         data-testid="host-bubble"
         style={{
           "flex-direction":"column",
-          padding: '10px',
-          "box-shadow":'0px 0px 10px rgba(0, 0, 0, 0.1)',
-
           width: 'fit-content',
           'font-size': '15px',
           'border-radius': '15px',
