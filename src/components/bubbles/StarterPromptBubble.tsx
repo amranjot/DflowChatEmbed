@@ -9,16 +9,12 @@ export const StarterPromptBubble = (props: Props) => (
       data-modal-toggle="defaultModal"
       class="flex justify-start items-start animate-fade-in host-container hover:brightness-90 active:brightness-75"
       onClick={() => props.onPromptClick?.()}
-      style={{
-        display:'flex'
-      }}
     >
       <span
         class="px-2 py-1 ml-1 whitespace-pre-wrap max-w-full chatbot-host-bubble"
         data-testid="host-bubble"
         style={{
-          'flex-direction': 'column',
-          width: 'fit-content',
+          width: 'max-content',
           'font-size': '15px',
           'border-radius': '15px',
           cursor: 'pointer',
@@ -29,6 +25,7 @@ export const StarterPromptBubble = (props: Props) => (
     </div>
   </>
 );
+
 
 // // Function to play click sound
 // const playClickSound = () => {
